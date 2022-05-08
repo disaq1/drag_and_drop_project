@@ -1,8 +1,5 @@
 <template>
   <section class="photo-uploader">
-    <div class="photo-uploader__progressBar">
-
-    </div>
     <div
         :class="{ 'photo-uploader__wrapper--drag' : isDragStarted }"
         class="photo-uploader__wrapper"
